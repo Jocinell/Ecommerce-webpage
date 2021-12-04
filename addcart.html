@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name='viewport'
+        content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+    <title>Jstore</title>
+
+
+
+
+    <link rel='stylesheet' id='wp-block-library-css'
+        href='https://themes.getbootstrap.com/wp-includes/css/dist/block-library/style.min.css?ver=5.3' type='text/css'
+        media='all' />
+    <link rel='stylesheet' id='wc-block-style-css'
+        href='https://themes.getbootstrap.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=2.4.5'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='select2-css'
+        href='https://themes.getbootstrap.com/wp-content/plugins/woocommerce/assets/css/select2.css?ver=3.8.1'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='woocommerce-layout-css'
+        href='https://themes.getbootstrap.com/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=3.8.1'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='woocommerce-smallscreen-css'
+        href='https://themes.getbootstrap.com/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=3.8.1'
+        type='text/css' media='only screen and (max-width: 768px)' />
+    <link rel='stylesheet' id='woocommerce-general-css'
+        href='https://themes.getbootstrap.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=3.8.1'
+        type='text/css' media='all' />
+
+
+    </style>
+    <link rel='stylesheet' id='dokan-fontawesome-css'
+        href='https://themes.getbootstrap.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/font-awesome.min.css?ver=2.9.27'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='dokan-theme-skin-css'
+        href='https://themes.getbootstrap.com/wp-content/themes/dokan/assets/css/skins/purple.css' type='text/css'
+        media='all' />
+
+    <script type='text/javascript'
+        src='https://themes.getbootstrap.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+    <script type='text/javascript'
+        src='https://themes.getbootstrap.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+    <link rel='https://api.w.org/' href='https://themes.getbootstrap.com/wp-json/' />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://themes.getbootstrap.com/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+        href="https://themes.getbootstrap.com/wp-includes/wlwmanifest.xml" />
+    <link rel='shortlink' href='https://themes.getbootstrap.com/?p=5' />
+    <link rel="alternate" type="application/json+oembed"
+        href="https://themes.getbootstrap.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthemes.getbootstrap.com%2Fcart%2F" />
+    <link rel="alternate" type="text/xml+oembed"
+        href="https://themes.getbootstrap.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthemes.getbootstrap.com%2Fcart%2F&#038;format=xml" />
+
+    <!-- The filemtime is to append a timestamp for the last time the stylesheet was updated to automate cache busting from CloudFlare -->
+    <link rel='stylesheet'
+        href='https://themes.getbootstrap.com/wp-content/themes/bootstrap-marketplace/style.css?ver=1590611604' />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-67613229-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-67613229-3');
+    </script>
+
+</head>
+
+<body
+    class="page-template-default page page-id-5 woocommerce theme-dokan woocommerce-cart woocommerce-page woocommerce-no-js dokan-theme-dokan">
+
+    <div class="container">
+        <div
+            class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+            <a class="navbar-brand" href="#">
+                <img src="picture/JStores! (1).png" style="border-radius: 40px;" width="70" height="70"
+                    class="d-inline-block align-top" alt="">
+            </a>
+            <h1 class="my-0 mr-md-auto font-weight-normal">Jstore</h1>
+            <nav class="my-2 my-md-0 mr-md-3">
+                <a class="p-2 text-dark" href="index.html">Home</a>
+                <a class="p-2 text-dark" href="#">Shopping</a>
+                <a class="p-2 text-dark" href="add.html">Add to Cart</a>
+                <a class="p-2 text-dark" href="#">Support</a>
+            </nav>
+            <a class="btn btn-outline-primary" href="#">Sign up</a>
+        </div>
+
+    </div>
+
+    <div class="alert alert-warning wc_notice"><a href="https://themes.getbootstrap.com/cart/"
+            class="button wc-forward">View cart</a> &ldquo;Shopper – items &rdquo; has been added to your cart.</div>
+    <main id="main" class="site-main main">
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 ml-auto mb-lg-0 mb-3 order-2 mt-lg-4">
+                        <div class="ml-0 ml-lg-4 card card--summary">
+                            <div class="card-body">
+                                <div class="cart_totals ">
+
+
+                                    <table cellspacing="0" class="shop_table shop_table_responsive">
+
+                                        <tr class="cart-subtotal">
+                                            <th>Subtotal</th>
+                                            <td data-title="Subtotal"><span
+                                                    class="woocommerce-Price-amount amount"><span
+                                                        class="woocommerce-Price-currencySymbol">&#8358;</span>32,500</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr class="order-total">
+                                            <th>Total</th>
+                                            <td data-title="Total">&#8358;</span>32,500</td>
+                                        </tr>
+
+
+                                    </table>
+
+                                    <div class="wc-proceed-to-checkout">
+
+                                        <a href="https://themes.getbootstrap.com/checkout/"
+                                            class="btn btn-lg btn-block btn-brand alt wc-forward">
+                                            Proceed to checkout</a>
+                                    </div>
+
+
+                                </div>
+
+                                <small class="text-center mt-3 d-block"><strong>100% Satisfaction
+                                        Guarantee</strong><br><span class="text-gray-soft">Don't love your product?
+                                        We'll issue you a full refund.</span></small>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7 mt-lg-4 mb-4 mb-lg-0">
+                        <!-- Tab panes-->
+                        <div class="tab-content">
+
+
+                            <article id="post-5" class="post-5 page type-page status-publish hentry">
+                                <header class="entry-header">
+                                    <h1 class="entry-title">Cart</h1>
+                                </header><!-- .entry-header -->
+
+                                <div class="entry-content">
+                                    <div class="woocommerce">
+                                        <div class="woocommerce-notices-wrapper"></div>
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <form class="woocommerce-cart-form"
+                                                    action="https://themes.getbootstrap.com/cart/" method="post">
+
+
+                                                    <table
+                                                        class="shop_table shop_table_responsive cart woocommerce-cart-form__contents mb-0"
+                                                        cellspacing="0">
+                                                        <tbody>
+
+                                                            <tr class="woocommerce-cart-form__cart-item cart_item">
+
+
+
+                                                                <td class="product-thumbnail">
+                                                                    <div class="card--summary__item">
+                                                                        <div class="card--summary__theme-thumb">
+                                                                            <a
+                                                                                href="https://themes.getbootstrap.com/product/varkala-e-commerce-theme/"><img
+                                                                                    width="400" height="300"
+                                                                                    src="https://pictures-nigeria.jijistatic.com/62505028_screenshot-20210224-174021_720x645.jpg"
+                                                                                    class="attachment-smaller_crop size-smaller_crop"
+                                                                                    alt=""
+                                                                                    srcset="https://pictures-nigeria.jijistatic.com/62505028_screenshot-20210224-174021_720x645.jpg"
+                                                                                    sizes="(max-width: 400px) 100vw, 400px" /></a>
+                                                                        </div>
+                                                                        <div class="card--summary__theme-description">
+                                                                            <div>
+                                                                                <h5 class="card--summary__theme-title">
+                                                                                    <a
+                                                                                        href="https://themes.getbootstrap.com/product/varkala-e-commerce-theme/">Glow
+                                                                                        Luxury Spiral Attachment</a>
+                                                                                </h5>
+                                                                                <dl class="variation">
+                                                                                    <dt class="variation-Vendor">Vendor:
+                                                                                    </dt>
+                                                                                    <dd class="variation-Vendor">
+                                                                                        <p>Glow Luxury Hair</p>
+                                                                                    </dd>
+                                                                                    <dt class="variation-LicenseType">
+                                                                                        License Type:</dt>
+                                                                                    <dd class="variation-LicenseType">
+                                                                                        <p>Standard License</p>
+                                                                                    </dd>
+                                                                                </dl>
+                                                                            </div>
+
+                                                                        </div>
+                                                                        <div style="display:none;">
+                                                                            <div class="quantity">
+                                                                                <label class="screen-reader-text"
+                                                                                    for="quantity_61aa0d1ace270">GlowLuxury
+                                                                                    Hair</label>
+                                                                                <input type="number"
+                                                                                    id="quantity_61aa0d1ace270"
+                                                                                    class="input-text qty text" step="1"
+                                                                                    min="0" max=""
+                                                                                    name="cart[6f934f87318b6562d71a80c30fb8ac0d][qty]"
+                                                                                    value="1" title="Qty" size="4"
+                                                                                    inputmode="numeric" />
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </td>
+
+
+
+                                                                <td class="product-subtotal" data-title="Total">
+                                                                    <span class="woocommerce-Price-amount amount"><span
+                                                                            class="woocommerce-Price-currencySymbol">&#8358;</span>4,500</span>
+                                                                    <a href="https://themes.getbootstrap.com/cart/?remove_item=6f934f87318b6562d71a80c30fb8ac0d&#038;_wpnonce=1bc4e7657b"
+                                                                        class="remove" aria-label="Remove this item"
+                                                                        data-product_id="29225"
+                                                                        data-product_sku="theme_29225">Remove</a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="woocommerce-cart-form__cart-item cart_item">
+
+
+
+                                                                <td class="product-thumbnail">
+                                                                    <div class="card--summary__item">
+                                                                        <div class="card--summary__theme-thumb">
+                                                                            <a
+                                                                                href="https://themes.getbootstrap.com/product/shopper/"><img
+                                                                                    width="400" height="300"
+                                                                                    src="https://www.seli.com.ng/sites/default/files/WW4887ASRW00BL_1.jpg"
+                                                                                    class="attachment-smaller_crop size-smaller_crop"
+                                                                                    alt=""
+                                                                                    srcset="https://www.seli.com.ng/sites/default/files/WW4887ASRW00BL_1.jpg"
+                                                                                    sizes="(max-width: 400px) 100vw, 400px" /></a>
+                                                                        </div>
+                                                                        <div class="card--summary__theme-description">
+                                                                            <div>
+                                                                                <h5 class="card--summary__theme-title">
+                                                                                    <a
+                                                                                        href="https://themes.getbootstrap.com/product/shopper/">Jstore
+                                                                                        Wrist Watch</a>
+                                                                                </h5>
+                                                                                <dl class="variation">
+                                                                                    <dt class="variation-Vendor">Vendor:
+                                                                                    </dt>
+                                                                                    <dd class="variation-Vendor">
+                                                                                        <p>Unvab Plus</p>
+                                                                                    </dd>
+                                                                                    <dt class="variation-LicenseType">
+                                                                                        License Type:</dt>
+                                                                                    <dd class="variation-LicenseType">
+                                                                                        <p>Standard License</p>
+                                                                                    </dd>
+                                                                                </dl>
+                                                                            </div>
+
+                                                                        </div>
+                                                                        <div style="display:none;">
+                                                                            <div class="quantity">
+                                                                                <label class="screen-reader-text"
+                                                                                    for="quantity_61aa0d1ace826">Jstore
+                                                                                    Wrist Watch</label>
+                                                                                <input type="number"
+                                                                                    id="quantity_61aa0d1ace826"
+                                                                                    class="input-text qty text" step="1"
+                                                                                    min="0" max=""
+                                                                                    name="cart[9c142784c4ff991670f5e49914fe4d3c][qty]"
+                                                                                    value="1" title="Qty" size="4"
+                                                                                    inputmode="numeric" />
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </td>
+
+
+
+                                                                <td class="product-subtotal" data-title="Total">
+                                                                    <span class="woocommerce-Price-amount amount"><span
+                                                                            class="woocommerce-Price-currencySymbol">&#8358;</span>28,000</span>
+                                                                    <a href="https://themes.getbootstrap.com/cart/?remove_item=9c142784c4ff991670f5e49914fe4d3c&#038;_wpnonce=1bc4e7657b"
+                                                                        class="remove" aria-label="Remove this item"
+                                                                        data-product_id="37702"
+                                                                        data-product_sku="theme_37702">Remove</a>
+                                                                </td>
+                                                            </tr>
+
+
+                                                            <tr>
+                                                                <td colspan="6" class="actions pb-0">
+
+                                                                    <div class="coupon">
+                                                                        <label for="coupon_code">Coupon:</label>
+                                                                        <input type="text" name="coupon_code"
+                                                                            class="form-control mr-2" id="coupon_code"
+                                                                            value="" placeholder="Coupon code" />
+                                                                        <input type="submit"
+                                                                            class="btn btn-outline-brand"
+                                                                            name="apply_coupon" value="Apply" />
+                                                                    </div>
+
+                                                                    <input type="submit" class="button"
+                                                                        name="update_cart" value="Update cart" />
+
+
+                                                                    <input type="hidden" id="_wpnonce" name="_wpnonce"
+                                                                        value="1bc4e7657b" /><input type="hidden"
+                                                                        name="_wp_http_referer" value="/cart/" />
+                                                                </td>
+                                                            </tr>
+
+                                                        </tbody>
+                                                    </table>
+                                                </form>
+                                            </div>
+                                        </div>
+
+                                        <div class="cart-collaterals">
+                                        </div>
+
+                                    </div>
+                                </div><!-- .entry-content -->
+                            </article><!-- #post-5 -->
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+    </script>
+    <script type='text/javascript'
+        src='https://themes.getbootstrap.com/wp-content/plugins/woocommerce/assets/js/frontend/address-i18n.min.js?ver=3.8.1'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var wc_cart_params = { "ajax_url": "\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/?wc-ajax=%%endpoint%%", "update_shipping_method_nonce": "f050686c5f", "apply_coupon_nonce": "1ec8b4d80a", "remove_coupon_nonce": "a49dcb6f44" };
+/* ]]> */
+    </script>
+    <script type='text/javascript'
+        src='https://themes.getbootstrap.com/wp-content/plugins/woocommerce/assets/js/frontend/cart.min.js?ver=3.8.1'></script>
+    <script type='text/javascript'
+        src='https://themes.getbootstrap.com/wp-content/plugins/woocommerce/assets/js/selectWoo/selectWoo.full.min.js?ver=1.0.6'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var wc_cart_fragments_params = { "ajax_url": "\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/?wc-ajax=%%endpoint%%", "cart_hash_key": "wc_cart_hash_b6f75edb0c218a0e4f336b9932fd5939", "fragment_name": "wc_fragments_b6f75edb0c218a0e4f336b9932fd5939", "request_timeout": "5000" };
+/* ]]> */
+    </script>
+    <script type='text/javascript'
+        src='https://themes.getbootstrap.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=3.8.1'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var mailchimp_public_data = { "site_url": "https:\/\/themes.getbootstrap.com", "ajax_url": "https:\/\/themes.getbootstrap.com\/wp-admin\/admin-ajax.php", "language": "en" };
+/* ]]> */
+    </script>
+    <script type='text/javascript'
+        src='https://themes.getbootstrap.com/wp-content/plugins/mailchimp-for-woocommerce/public/js/mailchimp-woocommerce-public.min.js?ver=2.4.0'></script>
+    <script type='text/javascript'
+        src='https://themes.getbootstrap.com/wp-content/plugins/dokan-lite/assets/vendors/magnific/jquery.magnific-popup.min.js?ver=2.9.27'></script>
+    <script type='text/javascript'
+        src='https://themes.getbootstrap.com/wp-content/plugins/dokan-lite/assets/js/login-form-popup.js?ver=1580165288'></script>
+    <script type='text/javascript'
+        src='https://themes.getbootstrap.com/wp-includes/js/wp-embed.min.js?ver=5.3'></script>
+    <script>
+        function validate_form(form) {
+            var er = 0;
+            form.find(".is-invalid").removeClass("is-invalid");
+            form.find(".url_invalid").removeClass("url_invalid");
+            form.find(".email_invalid").removeClass("email_invalid");
+
+            form.find(".check_url").each(function () {
+                if (jQuery(this).val() || jQuery(this).is(".required")) {
+                    if (!jQuery(this).val().match(/^(https?|ftp):\/\/([a-zA-Z0-9.-]+(:[a-zA-Z0-9.&%$-]+)*@)*((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9][0-9]?)(\.(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])){3}|([a-zA-Z0-9-]+\.)*[a-zA-Z0-9-]+\.(com|edu|gov|int|mil|net|org|biz|studio|info|name|pro|aero|coop|museum|[a-zA-Z]{2}))(:[0-9]+)*(\/($|[a-zA-Z0-9.,?'\\+&%$#=~_-]+))*$/)) {
+                        if (jQuery(this).val().indexOf("ailto:") > 0) {
+
+                        } else {
+                            er = 1;
+                            jQuery(this).addClass("is-invalid").addClass("url_invalid");
+                        }
+                    }
+                }
+            });
+
+            form.find(".check_https_url").each(function () {
+
+                var val = jQuery(this).val();
+
+                if (val || jQuery(this).is(".required")) {
+
+                    if (val.substr(0, 8) != 'https://') {
+                        jQuery(this).addClass("is-invalid").addClass("url_invalid");
+                    }
+
+                }
+            });
+
+            form.find(".check_email").each(function () {
+                if (!jQuery(this).val().match(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)) {
+                    er = 1;
+                    jQuery(this).addClass("is-invalid").addClass("email_invalid");
+                }
+            });
+
+            if (jQuery("#upload_cover").length) {
+                if (!jQuery("#upload_cover").val().length && jQuery(".upload-image__cover__overlay").css("background-image") !== "none") {
+                    jQuery("#cover_input_feedback").hide();
+                    jQuery(".upload-image__cover__overlay").removeClass("invalid-img");
+                } else {
+                    if (!jQuery("#upload_cover").val().length) {
+                        jQuery("#cover_input_feedback").show();
+                        jQuery(".upload-image__cover__overlay").addClass("invalid-img");
+                        er = 1;
+                    } else {
+                        if (parseInt(jQuery(".upload-image__cover__overlay").attr("data-width")) < 1200) {
+                            jQuery(".upload-image__cover__overlay").addClass("invalid-img");
+                            jQuery("#cover_input_feedback").html("Cover images need to be at least 1200px wide").show();
+                            er = 1;
+                        } else {
+                            jQuery("#cover_input_feedback").hide();
+                            jQuery(".upload-image__cover__overlay").removeClass("invalid-img");
+                        }
+                    }
+                }
+            }
+
+            if (jQuery("#preview_screenshot").length) {
+                if (!jQuery("#preview_screenshot").val().length && jQuery(".upload-image__cover__overlay").css("background-image") !== "none") {
+                    jQuery("#cover_input_feedback").hide();
+                    jQuery(".upload-image__cover__overlay").removeClass("invalid-img");
+                } else {
+                    if (!jQuery("#preview_screenshot").val().length) {
+                        jQuery("#cover_input_feedback").show();
+                        jQuery(".upload-image__cover__overlay").addClass("invalid-img");
+                        er = 1;
+                    } else {
+
+                        if (parseInt(jQuery(".upload-image__cover__overlay").attr("data-width")) < 1200 || parseInt(jQuery(".upload-image__cover__overlay").attr("data-height")) < 900) {
+                            jQuery(".upload-image__cover__overlay").addClass("invalid-img");
+                            jQuery("#cover_input_feedback").html("Cover images need to be at least 1200px wide and 900px tall").show();
+                            er = 1;
+
+                        } else if (jQuery(".upload-image__cover__overlay").attr("data-size") > 300) {
+                            jQuery(".upload-image__cover__overlay").addClass("invalid-img");
+                            jQuery("#cover_input_feedback").html("Cover images must not be larger than 300kb").show();
+                            er = 1;
+
+                        } else {
+                            jQuery("#cover_input_feedback").hide();
+                            jQuery(".upload-image__cover__overlay").removeClass("invalid-img");
+                        }
+                    }
+                }
+            }
+
+            if (jQuery("#upload_avatar").length) {
+                if (!jQuery("#upload_avatar").val().length && jQuery(".upload-image__avatar").css("background-image") !== "none") {
+                    jQuery("#avatar_input_feedback").hide();
+                    jQuery(".upload-image__avatar").removeClass("invalid-img");
+                } else {
+                    if (!jQuery("#upload_avatar").val().length) {
+                        jQuery("#avatar_input_feedback").show();
+                        jQuery(".upload-image__avatar").addClass("invalid-img");
+                        er = 1;
+                    } else {
+                        if (parseInt(jQuery(".upload-image__avatar").attr("data-width")) < 300) {
+                            jQuery("#avatar_input_feedback").html("Avatar images need to be at least 300px wide").show();
+                            jQuery(".upload-image__avatar").addClass("invalid-img");
+                            er = 1;
+                        } else {
+                            jQuery("#avatar_input_feedback").hide();
+                            jQuery(".upload-image__avatar").removeClass("invalid-img");
+                        }
+                    }
+                }
+            }
+
+            if (jQuery("#theme_file").length) {
+                if (jQuery("#theme_file_label a").length) {
+                    jQuery("#theme_input_feedback").hide();
+                } else {
+                    if (!jQuery("#theme_file").val().length) {
+                        jQuery("#theme_input_feedback").show();
+                        er = 1;
+                    } else {
+                        if (parseInt(jQuery("#theme_file_label").attr("data-size")) > 200000) {
+                            jQuery("#theme_input_feedback").html("The maximum size of uploaded files is 200MB").show();
+                            er = 1;
+                        } else {
+                            jQuery("#theme_input_feedback").hide();
+                        }
+                    }
+                }
+            }
+
+
+            form.find(".required, input[required], select[required]").each(function () {
+                if (jQuery(this).is("select")) {
+                    if (jQuery(this).is("[multiple]") == false) {
+                        if (!jQuery(this).val() || jQuery(this).val() == "" || jQuery(this).val() < 0) {
+                            //alert("bbbb");
+                            jQuery(this).addClass("is-invalid");
+                            jQuery(this).parent().find(".customSelect").addClass("is-invalid");
+                        }
+                    } else {
+                        if (!jQuery(this).find("option:selected").length) {
+                            jQuery(this).addClass("is-invalid");
+                            jQuery(this).parent().find(".customSelect").addClass("is-invalid");
+                        }
+                    }
+                } else if (jQuery(this).is('[type="checkbox"]') || jQuery(this).is('[type="radio"]')) {
+                    if (!form.find('input[name="' + jQuery(this).attr("name") + '"]:checked').length) {
+                        form.find('input[name="' + jQuery(this).attr("name") + '"]').addClass("is-invalid");
+                    }
+                } else if (jQuery(this).find('input:file').length && !jQuery(this).find('input:file').val()) {
+                    jQuery(this).addClass("is-invalid");
+                } else if ((jQuery(this).is("input, select, textarea") && !jQuery(this).val()) || jQuery(this).is(".is-invalid_exists")) {
+                    //er = 1;
+                    if (!jQuery(this).is("#user_core_password") && !jQuery(this).is("#user_core_password_confirm2")) {
+                        jQuery(this).addClass("is-invalid");
+                        jQuery(this).parent().find(".customSelect").addClass("is-invalid");
+                    }
+                }
+            });
+            form.find(".is-invalid_exists").each(function () {
+                er = 1;
+                jQuery(this).addClass("is-invalid");
+            });
+            var passok = 1;
+            var passmatch = 1;
+            form.find("#user_core_password").each(function () {
+                if (form.find("#user_core_password_confirm2").length && form.find("#user_core_password").val() != form.find("#user_core_password_confirm2").val()) {
+                    passmatch = 0;
+                }
+                var validated = true;
+                if (jQuery(this).val().length < 8) {
+                    validated = false;
+                }
+
+                if (validated == true) {
+                } else {
+                    passok = 0;
+                }
+                if (!passok || !passmatch) {
+                    form.find("#user_core_password").addClass("is-invalid");
+                    form.find("#user_core_password_confirm2").addClass("is-invalid");
+                } else {
+                    form.find("#user_core_password").removeClass("is-invalid");
+                    form.find("#user_core_password_confirm2").removeClass("is-invalid");
+                }
+            });
+            if (form.find(".is-invalid").length) {
+                er = 1;
+            }
+            if (!passmatch || !passok) {
+                if (!passok) {
+                    jQuery("#pass_input_feedback").html("Password must be at least 8 characters in length.");
+                } else {
+
+                }
+            }
+            if (form.find(".email_exists").length) {
+                form.find(".email_exists").addClass("is-invalid");
+                jQuery("#email_input_feedback").html("That email is already registered.");
+            }
+            if (form.find(".username_exists").length) {
+                jQuery("#email_input_feedback").html("That user name is already registered.");
+            }
+            if (form.find(".url_invalid").length) {
+            }
+            if (form.find(".email_invalid").length) {
+                jQuery("#email_input_feedback").html("Please input a valid email address.");
+            }
+            if (er) {
+                //form.find(".is-invalid").removeClass("is-invalid");
+            }
+            if (form.find(".terms").length && !form.find(".terms:checked").length) {
+                er = 1;
+            }
+            if (jQuery("#captcha_completed").val() == 0) {
+                er = 1;
+            } else {
+
+            }
+
+
+
+            if (!er) {
+                form.find(".alert-danger").slideUp();
+            } else {
+                if (form.find(".is-invalid:first").length) {
+                    jQuery('html, body').animate({
+                        scrollTop: form.find(".is-invalid:first").offset().top - 80
+                    }, 1000);
+                }
+            }
+            return er;
+        }
+
+        jQuery(document).ready(function () {
+            jQuery(".show_if_seller").remove();
+            jQuery("form.register p").each(function () {
+                jQuery(this).find('input[type="text"], input[type="email"], input[type="password"]').addClass("form-control").prop("required", true);
+                jQuery(this).append('<div class="invalid-feedback">This field is required</div>');
+            });
+            jQuery("form.register").unbind("submit").submit(function (e) {
+                var er = validate_form(jQuery("form.register"));
+                if (er) {
+                    e.stopPropagation();
+                    e.preventDefault();
+                    return false;
+                } else {
+                    return true;
+                }
+            });
+
+            jQuery(".fixed_price").change(function () {
+                if (parseInt(jQuery(this).attr("min"))) {
+                    if (parseInt(jQuery(this).attr("min")) > parseInt(jQuery(this).val())) {
+                        jQuery(this).val(parseInt(jQuery(this).attr("min")));
+                    }
+                }
+                var pr = parseFloat(jQuery(this).val());
+                jQuery(this).val(pr.toFixed(2));
+            });
+            jQuery(".fixed_price").change();
+
+            jQuery(".search-box select").change(function () {
+                jQuery(this).closest("form").submit();
+            });
+        });
+    </script>
+    <div id="yith-wcwl-popup-message" style="display:none;">
+        <div id="yith-wcwl-message"></div>
+    </div>
+
+
+    <script
+        src='https://themes.getbootstrap.com/wp-content/themes/bootstrap-marketplace/assets/javascript/Chart.min.js'></script>
+    <script
+        src='https://themes.getbootstrap.com/wp-content/themes/bootstrap-marketplace/assets/javascript/Chart.bundle.min.js'></script>
+    <script
+        src='https://themes.getbootstrap.com/wp-content/themes/bootstrap-marketplace/assets/javascript/tether.min.js'></script>
+    <script
+        src='https://themes.getbootstrap.com/wp-content/themes/bootstrap-marketplace/assets/javascript/popper.min.js'></script>
+    <script
+        src='https://themes.getbootstrap.com/wp-content/themes/bootstrap-marketplace/assets/javascript/bootstrap.min.js'></script>
+    <script
+        src='https://themes.getbootstrap.com/wp-content/themes/bootstrap-marketplace/assets/javascript/lazysizes.min.js'></script>
+
+    <!-- The filemtime is to append a timestamp for the last time the stylesheet was updated to automate cache busting from CloudFlare -->
+    <script
+        src='https://themes.getbootstrap.com/wp-content/themes/bootstrap-marketplace/assets/javascript/scripts.js?ver=1638280002'></script>
+
+
+
+</body>
+
+</html>
